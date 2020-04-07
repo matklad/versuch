@@ -1,0 +1,15 @@
+[package]
+name = "versuch"
+version = "0.1.0"
+authors = ["Aleksey Kladov <aleksey.kladov@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/matklad/versuch"
+license = "MIT OR Apache-2.0"
+description = "Procedural macro polyfill for Ok-wrapping functions"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "1.0", features = ["full"] }
+quote = "1.0"
